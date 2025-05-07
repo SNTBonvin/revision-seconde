@@ -67,7 +67,7 @@
 <body>
 
 <header>
-  <h1>Révisions SVT</h1>
+  <h1>Révisions SVT au Val de Lys</h1>
   <p>Prépare-toi efficacement aux contrôles et examens !</p>
 </header>
 
