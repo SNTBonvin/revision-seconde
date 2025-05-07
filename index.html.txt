@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Révisions SVT</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #2e8b57;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #1f5c3b;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 20px;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #2e8b57;
+    }
+
+    .quiz-section, .lesson-section {
+      margin-bottom: 40px;
+    }
+
+    footer {
+      background-color: #2e8b57;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Révisions SVT</h1>
+  <p>Prépare-toi efficacement aux contrôles et examens !</p>
+</header>
+
+<nav>
+  <a href="#cours">Cours</a>
+  <a href="#quiz">Quiz</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+  <section class="lesson-section" id="cours">
+    <h2>Cours</h2>
+    <p><strong>Chapitre 1 :</strong> La cellule, unité du vivant</p>
+    <p><strong>Chapitre 2 :</strong> Reproduction et sexualité</p>
+    <p><strong>Chapitre 3 :</strong> Écosystèmes et biodiversité</p>
+    <!-- Ajouter plus de contenu ici -->
+  </section>
+
+  <section class="quiz-section" id="quiz">
+    <h2>Quiz</h2>
+    <p>Testez vos connaissances avec nos quiz interactifs :</p>
+    <ul>
+      <li><a href="#">Quiz sur la cellule</a></li>
+      <li><a href="#">Quiz sur la reproduction</a></li>
+      <li><a href="#">Quiz sur les écosystèmes</a></li>
+    </ul>
+  </section>
+</div>
+
+<footer id="contact">
+  <p>Contact : revision.svt@example.com</p>
+  <p>&copy; 2025 Révisions SVT - Tous droits réservés</p>
+</footer>
+
+</body>
+</html>
